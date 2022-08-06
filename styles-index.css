@@ -55,7 +55,7 @@ span {
 }
 
 .container-2 {
-    width: 55%;
+    width: 65%;
     margin: auto;
     margin-top: 40px;
     margin-bottom: 60px;
@@ -74,15 +74,32 @@ span {
     padding-top: 30px;
 }
 
+.placeholder {
+    background-color: rgb(240, 242, 246);
+    border: solid 1px rgb(226, 232, 240);
+    border-radius: 5px;
+}
+
+.btn-submit {
+    width: 20%;
+    padding: 2px;
+    background-color: rgb(59, 59, 249);
+    cursor: pointer;
+    color:white;
+    border: none;
+    border-radius: 5px;
+}
+
 .error {
     color: brown;
     text-align: center;
+    padding: 5px;
 }
 
 .container-3 {
     display:flex;
     justify-content: space-evenly;
-    width: 55%;
+    width: 65%;
     margin: auto;
     padding-left: 30px;
     padding-right: 30px;
@@ -112,7 +129,7 @@ span {
 .container-4 {
     display:flex;
     justify-content: space-evenly;
-    width: 55%;
+    width: 65%;
     margin: auto;
     margin-top: 20px;
     padding-left: 30px;
@@ -120,11 +137,7 @@ span {
     padding-bottom: 16px;
     padding-top: 16px;
     font-family: 'Nunito Sans', sans-serif;
+    text-decoration: line-through;
     background-color: white;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-}
-
-.fa fa-check-circle, .fa fa-edit, .fa fa-trash {
-    font-size: 20px;
-    color: rgb(20, 20, 20);
 }
